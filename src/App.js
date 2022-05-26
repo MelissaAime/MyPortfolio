@@ -1,14 +1,14 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/styles.scss';
 import './App.css';
+import { NavBar } from './components/Navbar/Navbar';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-      </header>
-    </div>
+    
+        <NavBar/>
+
   );
 }
 

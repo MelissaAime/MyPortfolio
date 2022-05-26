@@ -1,0 +1,52 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width: 4rem;
+    margin: 5rem 1.5rem;    
+
+    a{
+        margin: 0.5rem;
+        border-radius: 5rem;
+        border: none;
+        width: 3.5rem;
+        height: 3.5rem;
+        background-color: $colorInactive;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:$colorTexto !important;
+
+        span{
+            display: block;
+        }
+
+        p{
+            display: none;
+            text-transform: uppercase;
+            justify-items: center;
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        &:hover{
+            background-color: $colorActive;
+            color: white !important;
+            width: 5rem;
+            
+            p{
+                display: block;
+            }
+            span{
+                display: none;
+            }
+        }
+
+        &:focus{
+            background-color: $colorActive;
+            color: white !important;
+        }
+        
+    }
+
+}
