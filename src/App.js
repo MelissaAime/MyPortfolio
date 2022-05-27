@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route , Navigate } from 'react-router-dom';
 import { NavBar } from './components/Navbar/Navbar';
 import { Home } from './components/Home/Home';
-import { About } from './components/About/About';
+import { Resume } from './components/Resume/Resume';
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
   
             <Routes>
                 <Route path='/' element={ <Home/> } />
-                <Route path='/about' element={ <About/> } />
+                <Route path='/resume' element={ <Resume/> } />
                 <Route path='*' element={ <Navigate to='/' /> } />
             </Routes>
   

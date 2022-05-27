@@ -1,0 +1,65 @@
+.about{
+    width: 70%;
+    height: 30rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: start;
+    position: fixed;
+    z-index: 9999;
+    top: 5%;
+    left:20%;
+    background-color: $colorBackground;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15% 85%;
+    grid-template-areas: "title title"
+                        "work educ";
+
+    
+    li{
+        color: $colorTexto;
+        margin-top: 0.4rem;
+    }
+
+    a{
+        text-decoration: none;
+        color: $colorActive;
+    }
+    
+    &-title{
+        grid-area: title;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        color: darken($color: $colorTexto, $amount: 2rem);
+        text-transform: uppercase;
+    }
+    &-work{
+        grid-area: work;
+
+        &-title{
+            font-size: 1rem;
+            color: $colorActive;
+            position: left;
+            text-transform: uppercase;
+            margin-bottom: 0;
+            margin-right: 0.3rem;
+        }
+
+    }
+    &-education{
+        grid-area: educ;
+
+        &-title{
+            @extend .about-work-title;
+        }
+    }
+}
+
+.borde{
+    height: 0.4rem;
+    margin: 0 0.3rem;
+    background-color: $colorActive;
+
+}

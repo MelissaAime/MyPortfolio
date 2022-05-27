@@ -13,7 +13,7 @@ export const NavBar = () => {
                 <span><BsPerson/></span>
                 <p>About</p>
             </a>
-            <a href='...'>
+            <a href='/resume'>
                 <span><BsReverseLayoutTextSidebarReverse/></span>
                 <p>Resume</p>
             </a>
