@@ -1,6 +1,8 @@
 .navbar{
-    display: flex;
     position: fixed;
+    z-index: 9999;
+    top: 5%;
+    left: 1%;
     flex-direction: column;
     width: 4rem;
     margin: 5rem 1.5rem;    
@@ -16,6 +18,7 @@
         align-items: center;
         justify-content: center;
         color:$colorTexto !important;
+        text-decoration: none;
 
         span{
             display: block;

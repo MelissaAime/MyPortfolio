@@ -1,0 +1,57 @@
+.home{
+    width: 70%;
+    height: 30rem;
+    margin-top: 2rem;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    top: 8%;
+    left:20%;
+    background-color: $colorBackground;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "text img"
+                        "content content";
+
+    img.home-img{
+        grid-area: img;
+        width: 10rem;
+        height: 10rem;
+        object-fit: cover;
+        border-radius: 25rem;
+        position: absolute;
+        top: 10%;
+        right: 6%;
+        
+    }
+
+    p.home-text{
+        grid-area: text;
+        font-family: "Courier New";
+        margin: 1rem 3rem;
+        border-right: .15em solid $colorActive;
+        width: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: blink 1s steps(1) infinite;
+        animation: typing 4s steps(30) 1s 1 normal both, blink 1s steps(1) infinite;   
+
+        @keyframes blink {
+            50% {
+              border-color: transparent;
+            }
+          }
+          @keyframes typing {
+            from {
+              width: 0;
+            }
+            to {
+              width: 100%;
+            }
+          }
+    }
+}
