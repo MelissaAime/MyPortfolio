@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route , Navigate } from 'react-router-dom';
 import { NavBar } from './components/Navbar/Navbar';
 import { Home } from './components/Home/Home';
 import { Resume } from './components/Resume/Resume';
+import { Skill } from './components/Skill/Skill';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Routes>
                 <Route path='/' element={ <Home/> } />
                 <Route path='/resume' element={ <Resume/> } />
+                <Route path='/skill' element={ <Skill/> } />
                 <Route path='*' element={ <Navigate to='/' /> } />
             </Routes>
   

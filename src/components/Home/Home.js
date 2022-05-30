@@ -7,6 +7,8 @@ export const Home = () => {
             <div className="container home">
                 <img src={image} alt='imagen' className='home-img'/>
                 <p className='fs-4 home-text'>Hi, I'm Melissa Daiana Aime...</p>
+
+                <p className='home-content '>and I'm a web developer</p>
             </div>
         </div>
     )

@@ -17,15 +17,15 @@ export const NavBar = () => {
                 <span><BsReverseLayoutTextSidebarReverse/></span>
                 <p>Resume</p>
             </a>
-            <a href='...'>
+            <a href='/proyect'>
                 <span><BsFillMenuButtonWideFill/></span>
                 <p>Proyect</p>
             </a>
-            <a href='...'>
+            <a href='/skill'>
                 <span><BsBarChart/></span>
                 <p>Skill</p>
             </a>
-            <a href='...'>
+            <a href='/contact'>
                 <span><BsChatText/></span>
                 <p>Contac</p>
             </a>
