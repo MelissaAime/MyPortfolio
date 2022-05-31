@@ -17,20 +17,20 @@ export const Skill = () => {
                 <ProgressBar now={85} className='skill-progress mx-3'/>
                 <p><FaSass/> SCSS </p>
                 <ProgressBar now={85} className='skill-progress mx-3'/>
-                <p><FaBootstrap/>Bootstrap </p>
+                <p><FaBootstrap/> Bootstrap </p>
                 <ProgressBar now={80} className='skill-progress mx-3'/>
-                <p><FaGithub/>GitHub </p>
+                <p><FaGithub/> GitHub </p>
                 <ProgressBar now={75} className='skill-progress mx-3'/>
             </div>
 
             <div className=" skill-section2">
-                <p><FaJs/>JavaScript </p>
+                <p><FaJs/> JavaScript </p>
                 <ProgressBar now={50} className='skill-progress mx-3'/>
-                <p><FaReact/>React JS </p>
+                <p><FaReact/> React JS </p>
                 <ProgressBar now={70} className='skill-progress mx-3'/>
-                <p><FaPython/>Python </p>
+                <p><FaPython/> Python </p>
                 <ProgressBar now={10} className='skill-progress mx-3'/>
-                <p><FaJava/>Java </p>
+                <p><FaJava/> Java </p>
                 <ProgressBar now={2} className='skill-progress mx-3'/>
             </div>
             

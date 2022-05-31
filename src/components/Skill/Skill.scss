@@ -21,6 +21,8 @@
         display: flex;
         justify-self: center;
         align-self: center;
+        font-family: "Courier New";
+        font-weight: bold;
         color: darken($color: $colorTexto, $amount: 2rem);
         text-transform: uppercase;
     }

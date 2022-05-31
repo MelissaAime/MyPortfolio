@@ -3,18 +3,18 @@
 export const Resume = () => {
     return(
         <div className="color-fondo">
-            <div className="container about">
-                <h3 className="text-center about-title">Resume</h3>
-                <div className="about-work">
-                    <h1 className="about-work-title text-end">Work experience</h1>
+            <div className="container resume">
+                <h3 className="text-center resume-title">Resume</h3>
+                <div className="resume-work">
+                    <h1 className="resume-work-title text-end">Work experience</h1>
                     <div className="borde"></div>
                     <ul>
                         <li>Proyect G-Data</li>
-                        <a href="/">visit the web site</a>
+                        <a href="/" target="_blank">visit the web site</a>
                         <li>Proyect Santa Bárbara Bikinis</li>
-                        <a href="https://santabarbarabikini.netlify.app/index.html">visit the web site</a>
+                        <a href="https://santabarbarabikini.netlify.app/index.html" target="_blank">visit the web site</a>
                         <li>Proyects from CODERHOUSE courses</li>
-                        <a href="https://github.com/MelissaAime">visit github</a>
+                        <a href="https://github.com/MelissaAime" target="_blank">visit github</a>
 
                         <hr/>
                         <p>Another work experience:</p>
@@ -22,8 +22,8 @@ export const Resume = () => {
                         <p className='text-muted'>From 2018 to present </p>
                     </ul>
                 </div>
-                <div className="about-education">
-                    <h1 className="about-education-title text-end">Education</h1>
+                <div className="resume-education">
+                    <h1 className="resume-education-title text-end">Education</h1>
                     <div className="borde"></div>
                     <ul>
                         <li>CODERHOUSE</li>

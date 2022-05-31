@@ -1,0 +1,50 @@
+.about{
+    width: 70%;
+    height: 30rem;
+    margin-top: 2rem;
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    top: 5%;
+    left:20%;
+    background-color: $colorBackground;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "title img"
+                        "text text";
+    
+    &-img{
+        grid-area: img;
+        width: 9rem;
+        height: 9rem;
+        object-fit: cover;
+        border-radius: 25rem;
+        position: absolute;
+        top: 14%;
+        right: 8%; 
+    }
+
+    &-title{
+        grid-area: title;
+        font-family: "Courier New";
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $colorTexto;
+        margin: 1rem 0 1rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    &-text{
+        grid-area: text;
+        display: flex;
+        justify-content: center;
+        font-family: "Courier New";
+        color: $colorTexto;
+        margin: 0 6rem 2rem 6rem;
+        text-align: justify;
+    }
+}

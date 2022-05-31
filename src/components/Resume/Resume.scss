@@ -1,4 +1,4 @@
-.about{
+.resume{
     width: 70%;
     height: 30rem;
     margin-top: 2rem;
@@ -32,6 +32,8 @@
         display: flex;
         justify-self: center;
         align-self: center;
+        font-family: "Courier New";
+        font-weight: bold;
         color: darken($color: $colorTexto, $amount: 2rem);
         text-transform: uppercase;
     }
@@ -52,7 +54,7 @@
         grid-area: educ;
 
         &-title{
-            @extend .about-work-title;
+            @extend .resume-work-title;
         }
     }
 }

@@ -6,6 +6,9 @@ import { NavBar } from './components/Navbar/Navbar';
 import { Home } from './components/Home/Home';
 import { Resume } from './components/Resume/Resume';
 import { Skill } from './components/Skill/Skill';
+import { About } from './components/About/About';
+import { Proyect } from './components/Proyect/Proyect';
+import { Contact } from './components/Contact/Contact';
 
 
 function App() {
@@ -16,8 +19,11 @@ function App() {
   
             <Routes>
                 <Route path='/' element={ <Home/> } />
+                <Route path='/about' element={ <About/> } />
                 <Route path='/resume' element={ <Resume/> } />
+                <Route path='/proyect' element={ <Proyect/> } />
                 <Route path='/skill' element={ <Skill/> } />
+                <Route path='/contact' element={ <Contact/> } />
                 <Route path='*' element={ <Navigate to='/' /> } />
             </Routes>
   
