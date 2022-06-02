@@ -26,16 +26,20 @@
         right: 8%; 
     }
 
-    &-title{
+    &-content{
         grid-area: title;
-        font-family: "Courier New";
-        text-transform: uppercase;
-        font-weight: bold;
-        color: $colorTexto;
         margin: 1rem 0 1rem 1rem;
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        align-self: center;
+        align-items: center;
+        color: $colorTexto;
+        font-family: "Courier New";
+
+        &-title{
+            text-transform: uppercase;
+            font-weight: bold;
+        }
     }
 
     &-text{

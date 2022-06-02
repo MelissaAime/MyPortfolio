@@ -10,16 +10,17 @@ export const Resume = () => {
                     <div className="borde"></div>
                     <ul>
                         <li>Proyect G-Data</li>
-                        <a href="/" target="_blank">visit the web site</a>
+                        <a href="/" target="_blank" rel="noreferrer">visit the web site</a>
                         <li>Proyect Santa Bárbara Bikinis</li>
-                        <a href="https://santabarbarabikini.netlify.app/index.html" target="_blank">visit the web site</a>
+                        <a href="https://santabarbarabikini.netlify.app/index.html" target="_blank" rel="noreferrer">visit the web site</a>
                         <li>Proyects from CODERHOUSE courses</li>
                         <a href="https://github.com/MelissaAime" target="_blank">visit github</a>
 
-                        <hr/>
-                        <p>Another work experience:</p>
-                        <li>Math teacher in primary and secondary school</li>
-                        <p className='text-muted'>From 2018 to present </p>
+                        <div className="another">
+                            <p className="another-title">Another work experience:</p>
+                            <li>Math teacher in primary and secondary school</li>
+                            <p className="another-subtitle">From 2018 to present </p>
+                        </div>
                     </ul>
                 </div>
                 <div className="resume-education">

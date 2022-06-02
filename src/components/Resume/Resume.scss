@@ -49,6 +49,19 @@
             margin-right: 0.3rem;
         }
 
+        .another{
+            position: absolute;
+            bottom: 2%;
+            color: $colorTexto;
+
+            &-title{
+                text-transform: uppercase;
+            }
+            &-subtitle{
+                color: $colorActive;
+            }
+        }
+
     }
     &-education{
         grid-area: educ;
