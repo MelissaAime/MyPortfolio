@@ -57,9 +57,15 @@
         color: $colorWhiteTransparente;
         text-transform: uppercase;
         margin-bottom: 0.2rem;
+        &:hover{
+            color: white;
+        }
     }
     p{
         color: $colorWhiteTransparente;
+        &:hover{
+            color: white;
+        }
     }
     section{
         margin-bottom: 0.5rem;

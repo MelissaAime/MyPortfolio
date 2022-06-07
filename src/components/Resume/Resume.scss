@@ -15,11 +15,14 @@
     grid-template-rows: 15% 85%;
     grid-template-areas: "title title"
                         "work educ";
-
     
+
     li{
         color: $colorTexto;
         margin-top: 0.4rem;
+        &:hover{
+            color: darken($color: $colorTexto, $amount: 20);
+        }
     }
 
     a{

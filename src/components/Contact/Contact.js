@@ -1,4 +1,5 @@
 import { BsWhatsapp, BsLinkedin, BsEnvelope, BsGithub } from 'react-icons/bs'
+import { Form } from './Form'
 
 export const Contact = () => {
     return(
@@ -7,6 +8,7 @@ export const Contact = () => {
             <div>
                 <h3>Contact me</h3>
                 <div className='barra'></div> 
+                <Form/>
             </div>
 
         </div>

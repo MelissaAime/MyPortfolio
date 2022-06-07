@@ -1,6 +1,9 @@
+import { Cards } from "./Cards";
 
 export const Proyect = () => {
-    return(
-        <></>
-    )
-}
+  return (
+      <div className='container proyect'>
+        <Cards/>
+      </div>
+  );
+};

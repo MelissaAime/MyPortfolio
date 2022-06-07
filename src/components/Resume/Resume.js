@@ -14,7 +14,12 @@ export const Resume = () => {
                         <li>Proyect Santa Bárbara Bikinis</li>
                         <a href="https://santabarbarabikini.netlify.app/index.html" target="_blank" rel="noreferrer">visit the web site</a>
                         <li>Proyects from CODERHOUSE courses</li>
-                        <a href="https://github.com/MelissaAime" target="_blank">visit github</a>
+                            <ul>
+                                <li><a href="https://calijoyas.000webhostapp.com/" target="_blank" rel="noreferrer">Web Development</a></li>
+                                <li><a href="https://labodegaestacion.000webhostapp.com/" target="_blank" rel="noreferrer">JavaScript</a></li>
+                                <li><a href="https://brave-haibt-14b1d7.netlify.app/" target="_blank" rel="noreferrer">React JS</a></li>
+                            </ul>
+                        <a href="https://github.com/MelissaAime" target="_blank" rel="noreferrer">visit github for more</a>
 
                         <div className="another">
                             <p className="another-title">Another work experience:</p>

@@ -25,6 +25,10 @@
         top: 10%;
         right: 6%;
         
+        &:hover{
+            width: 15.2rem;
+            height: 15.2rem;
+        }
     }
 
     &-text{
@@ -63,5 +67,9 @@
         align-self: center;
         font-family: "Courier New";
         color: $colorTexto;
+        &:hover{
+            color: $colorActive;
+            font-weight: bolder;
+        }
     }
 }
